@@ -1,5 +1,24 @@
 # Write your code here.
-
+def dictionary(str)
+  code = {
+    "hello" => "hi",
+    "to" => "2",
+    "two" => "2",
+    "too" => "2",
+    "for" => "4",
+    "four" => "4",
+    "be" => "b",
+    "you" => "u",
+    "at" => "@",
+    "and" => "$"
+  }
+  
+  if code.has_key?(str)
+      return code[str]
+    else
+      return str
+    end 
+end 
 
 def word_substituter(tweet)
   newTweet= tweet.split(" ")
