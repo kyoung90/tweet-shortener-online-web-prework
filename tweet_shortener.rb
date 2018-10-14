@@ -1,4 +1,6 @@
 # Write your code here.
+
+
 def word_substituter(tweet)
   newTweet= tweet.split(" ")
   code = {
@@ -24,3 +26,4 @@ def word_substituter(tweet)
     
     return newTweet.join(" ")
 end 
+
