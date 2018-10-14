@@ -1,6 +1,6 @@
 # Write your code here.
-def dictionary(str)
-  # str.split(" ")
+def word_substituter(str)
+  str.split(" ")
   code = {
     "hello" => "hi",
     "to" => "2",
