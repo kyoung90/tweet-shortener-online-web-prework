@@ -1,6 +1,6 @@
 # Write your code here.
-def word_substituter(str)
-  str.split(" ")
+def word_substituter(tweet)
+  newTweet= tweet.split(" ")
   code = {
     "hello" => "hi",
     "to" => "2",
@@ -14,7 +14,7 @@ def word_substituter(str)
     "and" => "$"
   }
   
-  str.collect do |ele|
+  newTweet.collect do |ele|
     if code.has_key?(ele)
       ele = code[ele]
     else
@@ -22,5 +22,5 @@ def word_substituter(str)
     end 
   end 
     
-    return str.join(" ")
+    return newTweet.join(" ")
 end 
