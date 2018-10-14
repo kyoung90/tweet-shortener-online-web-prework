@@ -54,5 +54,5 @@ def shortened_tweet_truncator(tweet)
     return "#{tweet[0..140]}..." 
   end 
   
-  return tweet
+  return newTweet
 end 
