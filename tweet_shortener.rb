@@ -21,4 +21,5 @@ def dictionary(str)
       ele
     end 
     
+    return str.join(" ")
 end 
