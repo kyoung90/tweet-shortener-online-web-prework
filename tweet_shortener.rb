@@ -14,10 +14,12 @@ def dictionary(str)
   }
   
   if code.has_key?(str)
-      return code[str]
-    else
-      return str
-    end 
+    return code[str]
+  elsif code.has_key?(str.capitalize)
+    return code[str].capitalize
+  else
+    return str
+  end 
 end 
 
 def word_substituter(tweet)
