@@ -1,6 +1,6 @@
 # Write your code here.
 def dictionary(str)
-  str.split(" ")
+  # str.split(" ")
   code = {
     "hello" => "hi",
     "to" => "2",
