@@ -10,7 +10,7 @@ def dictionary(str)
     "be" => "b",
     "you" => "u",
     "at" => "@",
-    "and" => "$"
+    "and" => "&"
   }
   
   if code.has_key?(str)
