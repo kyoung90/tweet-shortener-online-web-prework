@@ -14,6 +14,11 @@ def dictionary(str)
     "and" => "$"
   }
   
-  str.each do |ele|
-    if 
+  str.collect do |ele|
+    if code.has_key?(ele)
+      ele = code[ele]
+    else
+      ele
+    end 
+    
 end 
