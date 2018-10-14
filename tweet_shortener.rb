@@ -16,9 +16,9 @@ def word_substituter(tweet)
   
   newTweet.collect do |ele|
     if code.has_key?(ele)
-      return ele = code[ele]
+      ele = code[ele]
     else
-      return ele
+      ele
     end 
   end 
     
