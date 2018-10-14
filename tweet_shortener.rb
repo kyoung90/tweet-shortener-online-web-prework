@@ -14,7 +14,7 @@ def word_substituter(tweet)
     "and" => "$"
   }
   
-  newTweet.collect do |ele|
+  newTweet.collect! do |ele|
     if code.has_key?(ele)
       ele = code[ele]
     else
