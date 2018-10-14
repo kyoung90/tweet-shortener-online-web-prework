@@ -20,6 +20,7 @@ def dictionary(str)
     else
       ele
     end 
+  end 
     
     return str.join(" ")
 end 
