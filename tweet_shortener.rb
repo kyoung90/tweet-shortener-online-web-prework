@@ -16,7 +16,7 @@ def dictionary(str)
   if code.has_key?(str)
     return code[str]
   elsif code.has_key?(str.downcase)
-    return code[str].capitalize
+    return code[str.downcase].capitalize
   else
     return str
   end 
